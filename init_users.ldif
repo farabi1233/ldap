@@ -1,0 +1,72 @@
+# Root domain
+dn: dc=example,dc=org
+objectClass: top
+objectClass: domain
+dc: example
+
+# Admin user
+dn: cn=admin,dc=example,dc=org
+objectClass: organizationalRole
+cn: admin
+userPassword: admin
+
+# Test Users (mathematicians)
+dn: uid=riemann,dc=example,dc=org
+objectClass: inetOrgPerson
+cn: Riemann
+sn: Riemann
+uid: riemann
+userPassword: password
+
+dn: uid=gauss,dc=example,dc=org
+objectClass: inetOrgPerson
+cn: Gauss
+sn: Gauss
+uid: gauss
+userPassword: password
+
+dn: uid=euler,dc=example,dc=org
+objectClass: inetOrgPerson
+cn: Euler
+sn: Euler
+uid: euler
+userPassword: password
+
+dn: uid=euclid,dc=example,dc=org
+objectClass: inetOrgPerson
+cn: Euclid
+sn: Euclid
+uid: euclid
+userPassword: password
+
+# Test Users (scientists)
+dn: uid=einstein,dc=example,dc=org
+objectClass: inetOrgPerson
+cn: Einstein
+sn: Einstein
+uid: einstein
+userPassword: password
+
+dn: uid=newton,dc=example,dc=org
+objectClass: inetOrgPerson
+cn: Newton
+sn: Newton
+uid: newton
+userPassword: password
+
+dn: uid=galileo,dc=example,dc=org
+objectClass: inetOrgPerson
+cn: Galileo
+sn: Galileo
+uid: galileo
+userPassword: password
+
+dn: uid=tesla,dc=example,dc=org
+objectClass: inetOrgPerson
+cn: Tesla
+sn: Tesla
+uid: tesla
+userPassword: password
+
+
+
